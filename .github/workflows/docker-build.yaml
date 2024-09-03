@@ -86,7 +86,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Download the jar artifact from the compile step
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: ${{ env.JAR_NAME }}
 
